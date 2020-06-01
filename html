@@ -44,3 +44,49 @@
     
 </body>
 </html>
+
+
+
+
+                        CSS                        
+                        
+                        
+                        
+*{ margin: 0; list-style: none;
+padding: 0; border: 0;}
+.slider{
+    overflow: hidden;
+    margin: 30px;
+    position: relative;
+}
+
+.slider ul.slider_liste{
+    font-size: 0;
+    width: 100%;
+    float: left;
+}
+.slider ul.slider_liste li a img {
+    width: 100%;
+}
+
+/*button*/
+a.previous, a.next {
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    font: 32px/70px Arial;
+    color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    background: rgba(0,0,0, .5);
+    text-align: center;
+}
+a.previous{ left: 20px;}
+a.next{ right: 20px;}
+a.previous:hover , a.next:hover { background:#000}
+                        
+
+
+
