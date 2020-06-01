@@ -90,3 +90,17 @@ a.previous:hover , a.next:hover { background:#000}
 
 
 
+$(function(){
+
+    var slider = $('.slider'),
+        list = slider.find('ul.slider_liste'),
+        length = list.find('li').length,
+        width = slider.otherWidth(),
+        totalWidth = width * length,
+        index = 0;
+    
+    list.find('li').width(width).end().width(totalWidth)    
+
+    //alert (length);
+})
+
